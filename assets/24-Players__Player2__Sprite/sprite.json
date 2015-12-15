@@ -1,0 +1,72 @@
+{
+  "formatVersion": 1,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "pixelsPerUnit": 32,
+  "framesPerSecond": 5,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 16,
+    "height": 16
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Stdr_Walk",
+      "startFrameIndex": 0,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Water_Walk",
+      "startFrameIndex": 3,
+      "endFrameIndex": 5,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Stdr_Idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 0,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "Water_Idle",
+      "startFrameIndex": 3,
+      "endFrameIndex": 3,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "Stdr_Attack",
+      "startFrameIndex": 6,
+      "endFrameIndex": 8,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Water_Attack",
+      "startFrameIndex": 9,
+      "endFrameIndex": 11,
+      "speed": 1
+    }
+  ],
+  "advancedTextures": false,
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

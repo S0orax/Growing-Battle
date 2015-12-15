@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "grid": {
+    "width": 16,
+    "height": 16
+  },
+  "tileProperties": {
+    "0_0": {
+      "block": "true"
+    },
+    "1_0": {
+      "block": "true"
+    }
+  }
+}

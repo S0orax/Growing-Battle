@@ -1,0 +1,106 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Player",
+      "children": [],
+      "components": [
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "type": "box",
+            "movable": true,
+            "width": 0.4,
+            "height": 0.45,
+            "offset": {
+              "x": 0,
+              "y": -0.025
+            },
+            "tileMapAssetId": null,
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "PlayerBehavior",
+            "propertyValues": {
+              "speed": {
+                "type": "number",
+                "value": 0.075
+              },
+              "up": {
+                "type": "string",
+                "value": "Z"
+              },
+              "left": {
+                "type": "string",
+                "value": "Q"
+              },
+              "right": {
+                "type": "string",
+                "value": "D"
+              },
+              "spawnTileId": {
+                "type": "number",
+                "value": 14
+              },
+              "sprite": {
+                "type": "string",
+                "value": "Sprite"
+              },
+              "attackKey": {
+                "type": "string",
+                "value": "SPACE"
+              },
+              "flowerName": {
+                "type": "string",
+                "value": "BlueFlower"
+              }
+            }
+          },
+          "id": "1"
+        },
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "spriteAssetId": "10",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

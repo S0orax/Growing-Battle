@@ -1,0 +1,289 @@
+[
+  {
+    "id": "0",
+    "name": "Players",
+    "type": null,
+    "children": [
+      {
+        "id": "9",
+        "name": "Player1",
+        "type": null,
+        "children": [
+          {
+            "id": "10",
+            "name": "Sprite",
+            "type": "sprite"
+          },
+          {
+            "id": "12",
+            "name": "Prefab",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "name": "Player2",
+        "type": null,
+        "children": [
+          {
+            "id": "24",
+            "name": "Sprite",
+            "type": "sprite"
+          },
+          {
+            "id": "25",
+            "name": "Prefab",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "PlayerBehavior",
+        "type": "script"
+      },
+      {
+        "id": "26",
+        "name": "PlayersArguments",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Flowers",
+    "type": null,
+    "children": [
+      {
+        "id": "28",
+        "name": "RedFlower",
+        "type": null,
+        "children": [
+          {
+            "id": "30",
+            "name": "Sprite",
+            "type": "sprite"
+          },
+          {
+            "id": "32",
+            "name": "Prefab",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "name": "BlueFlower",
+        "type": null,
+        "children": [
+          {
+            "id": "31",
+            "name": "Sprite",
+            "type": "sprite"
+          },
+          {
+            "id": "36",
+            "name": "Prefab",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "34",
+        "name": "FlowerBehavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Items",
+    "type": null,
+    "children": [
+      {
+        "id": "16",
+        "name": "WaterDrop",
+        "type": null,
+        "children": [
+          {
+            "id": "17",
+            "name": "Sprite",
+            "type": "sprite"
+          },
+          {
+            "id": "18",
+            "name": "Prefab",
+            "type": "scene"
+          },
+          {
+            "id": "19",
+            "name": "WaterDropBehavior",
+            "type": "script"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Level",
+    "type": null,
+    "children": [
+      {
+        "id": "3",
+        "name": "Test",
+        "type": null,
+        "children": [
+          {
+            "id": "6",
+            "name": "Map",
+            "type": "tileMap"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Tileset",
+        "type": null,
+        "children": [
+          {
+            "id": "5",
+            "name": "Tiles",
+            "type": "tileSet"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "TileMapBehavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Scripts",
+    "type": null,
+    "children": [
+      {
+        "id": "37",
+        "name": "CameraBehavior",
+        "type": "script"
+      },
+      {
+        "id": "51",
+        "name": "MainMenuBehavior",
+        "type": "script"
+      },
+      {
+        "id": "52",
+        "name": "RulesMenuBehavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Sound",
+    "type": null,
+    "children": [
+      {
+        "id": "41",
+        "name": "Jump",
+        "type": "sound"
+      },
+      {
+        "id": "42",
+        "name": "Hit",
+        "type": "sound"
+      },
+      {
+        "id": "43",
+        "name": "Hurt",
+        "type": "sound"
+      },
+      {
+        "id": "55",
+        "name": "Music",
+        "type": "sound"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "name": "GUI",
+    "type": null,
+    "children": [
+      {
+        "id": "39",
+        "name": "Font",
+        "type": "font"
+      },
+      {
+        "id": "46",
+        "name": "Title",
+        "type": "sprite"
+      },
+      {
+        "id": "50",
+        "name": "MenuBG",
+        "type": "sprite"
+      },
+      {
+        "id": "57",
+        "name": "Twitter",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Game",
+    "type": null,
+    "children": [
+      {
+        "id": "47",
+        "name": "Menu",
+        "type": null,
+        "children": [
+          {
+            "id": "48",
+            "name": "MainMenu",
+            "type": "scene"
+          },
+          {
+            "id": "49",
+            "name": "RulesMenu",
+            "type": "scene"
+          },
+          {
+            "id": "53",
+            "name": "BlueWin",
+            "type": "scene"
+          },
+          {
+            "id": "58",
+            "name": "RedWin",
+            "type": "scene"
+          }
+        ]
+      },
+      {
+        "id": "44",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "8",
+        "name": "Game",
+        "type": "scene"
+      },
+      {
+        "id": "13",
+        "name": "Game_Script",
+        "type": "script"
+      }
+    ]
+  }
+]

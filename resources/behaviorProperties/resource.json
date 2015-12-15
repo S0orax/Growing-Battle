@@ -1,0 +1,73 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "11",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "up",
+          "type": "string"
+        },
+        {
+          "name": "left",
+          "type": "string"
+        },
+        {
+          "name": "right",
+          "type": "string"
+        },
+        {
+          "name": "attackKey",
+          "type": "string"
+        },
+        {
+          "name": "spawnTileId",
+          "type": "number"
+        },
+        {
+          "name": "flowerName",
+          "type": "string"
+        }
+      ]
+    },
+    "WaterDropBehavior": {
+      "scriptId": "19",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "TileMapBehavior": {
+      "scriptId": "14",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "FlowerBehavior": {
+      "scriptId": "34",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "step",
+          "type": "number"
+        }
+      ]
+    },
+    "CameraBehavior": {
+      "scriptId": "37",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MainMenuBehavior": {
+      "scriptId": "51",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "RulesMenuBehavior": {
+      "scriptId": "52",
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
